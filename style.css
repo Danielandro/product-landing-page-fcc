@@ -1,0 +1,10 @@
+header {
+    background-color: gold;
+    height: 40px;
+}
+
+header img{
+    float: left;
+    height: 100px;
+    
+}
