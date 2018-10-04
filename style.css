@@ -1,9 +1,35 @@
+body{
+    background-color: rgba(0, 95, 168, 0.2);
+}
+
 header {
     background-color: gold;
-    height: 40px;
+    margin-top: 20px; 
 }
 
 header img{
     float: left;
     height: 100px;    
+    /* text-align: left;        */
+}
+
+#nav-bar {  
+    text-align: center;    
+    padding: 20px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.4rem;
+    margin: 20px 30px;
+}
+
+#video{
+    margin: 80px auto;  
+    display: block;
+}
+
+#form{
+    text-align: center;
 }
