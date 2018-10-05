@@ -1,16 +1,20 @@
+:root{
+    --baskin-pink: #DE5B9E;
+    --baskin-blue: rgba(0, 95, 168, 1)
+}
+
 body{
-    background-color: rgba(0, 95, 168, 0.2);
+    background-color: var(--baskin-blue);
 }
 
 header {
-    background-color: gold;
+    /* background-color: gold; */
     margin-top: 20px; 
 }
 
 header img{
     float: left;
-    height: 100px;    
-    /* text-align: left;        */
+    height: 100px; 
 }
 
 #nav-bar {  
@@ -20,7 +24,7 @@ header img{
 
 .nav-link {
     text-decoration: none;
-    color: gray;
+    color: rgb(56, 55, 55);
     font-size: 1.4rem;
     margin: 20px 30px;
 }
