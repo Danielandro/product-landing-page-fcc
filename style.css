@@ -4,12 +4,15 @@
 }
 
 body{
-    background-color: var(--baskin-blue);
+    background-color: rgb(247, 247, 142);
 }
 
 header {
     /* background-color: gold; */
-    margin-top: 20px; 
+    position: fixed;
+    top: 30px; 
+    left: 30px;
+    width: 95%;
 }
 
 header img{
@@ -20,13 +23,24 @@ header img{
 #nav-bar {  
     text-align: center;    
     padding: 20px 0;
+    float: right;
 }
 
 .nav-link {
     text-decoration: none;
-    color: rgb(56, 55, 55);
+    color: black;
     font-size: 1.4rem;
     margin: 20px 30px;
+}
+
+#home {
+    height: 100vh;
+}
+
+#splash-img{
+    height: 250px;
+    margin: 230px auto;
+    display: block;
 }
 
 #video{
