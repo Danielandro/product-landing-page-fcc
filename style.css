@@ -35,12 +35,35 @@ header img{
 
 #home {
     height: 100vh;
+    width: 100vw;
 }
 
 #splash-img{
-    height: 250px;
+    height: 20vh;
     margin: 230px auto;
     display: block;
+}
+
+#slogan{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -150px;
+}
+
+#ice-cream-arrow{
+    height: 200px;
+    position: absolute;
+    left: 50vw;
+    display: block;    
+    bottom: 0;
+    margin: 0;
+}
+
+#about{
+    background-color: var(--baskin-pink);
+    width: 100vw;
+    height: 100vh;
 }
 
 #video{
